@@ -15,7 +15,7 @@ def logo():
  _/ // / / / / / /_/ / /_/ /  __/_____/ _, _/  __(__  ) /_/ /_/ / /  /  __/ /    
 /___/_/ /_/ /_/\__,_/\__, /\___/     /_/ |_|\___/____/\__/\____/_/   \___/_/     
                     /____/                                                       
-                                Version: 1.01                                    
+                                Version: 1.02                                    
                           Author:  曾哥（@AabyssZG）                             
                      Whoami:  https://github.com/AabyssZG                        
 
@@ -25,10 +25,10 @@ def logo():
 def usage():
     print('''
 用法:
-        自动爆破图片宽高并修复图片:   python3 Deformed-Image-Restorer.py -i demo.png
-        使用指定宽高修复导出图片:     python3 Deformed-Image-Restorer.py -r demo.png
+        自动爆破图片宽高并修复PNG图片:   python3 Deformed-Image-Restorer.py -i demo.png
+        使用指定宽高修复导出PNG图片:     python3 Deformed-Image-Restorer.py -r demo.png
 
 参数:
-        -i  --image    自动爆破图片宽高并导出修复后的图片
-        -r  --reverse  使用指定宽高导出修复后的图片
+        -i  --image    自动爆破图片宽高并导出修复后的PNG图片
+        -r  --reverse  使用指定宽高导出修复后的PNG图片
         ''', end='')

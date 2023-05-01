@@ -30,12 +30,12 @@ CTFer的福音，Misc手的利器，自动爆破图片宽高并一键修复工�
 
 
 用法:
-        自动爆破图片宽高并修复图片:   python3 Deformed-Image-Restorer.py -i demo.png
-        使用指定宽高修复导出图片:     python3 Deformed-Image-Restorer.py -r demo.png
+        自动爆破图片宽高并修复PNG图片:   python3 Deformed-Image-Restorer.py -i demo.png
+        使用指定宽高修复导出PNG图片:     python3 Deformed-Image-Restorer.py -r demo.png
 
 参数:
-        -i  --image    自动爆破图片宽高并导出修复后的图片
-        -r  --reverse  使用指定宽高导出修复后的图片
+        -i  --image    自动爆破图片宽高并导出修复后的PNG图片
+        -r  --reverse  使用指定宽高导出修复后的PNG图片
 ```
 
 # 工具演示
@@ -48,7 +48,7 @@ python Deformed-Image-Restorer.py -i demo.png
 
 ![Base64导出](./img/image.png)
 
-**发现导出成功了，在脚本根目录，直接修改文件后缀名即可拿到Flag**
+**发现导出成功了，在脚本根目录获取即可拿到Flag**
 
 ![Base64导出效果](./img/output-1.png)
 
@@ -60,7 +60,7 @@ python Deformed-Image-Restorer.py -r demo.png
 
 ![Hex导出](./img/reverse.png)
 
-**发现导出成功了，在脚本根目录，直接修改文件后缀名即可拿到Flag**
+**发现导出成功了，在脚本根目录获取即可拿到Flag**
 
 ![Hex导出效果](./img/output-2.png)
 

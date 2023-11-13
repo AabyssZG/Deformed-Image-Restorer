@@ -68,4 +68,4 @@ python Deformed-Image-Restorer.py -r demo.png
 
 ## 项目 Star 数量统计趋势图
 
-[![Stargazers over time](https://starchart.cc/AabyssZG/Deformed-Image-Restorer.svg)](https://starchart.cc/AabyssZG/Deformed-Image-Restorer)
+[![Star History Chart](https://api.star-history.com/svg?repos=AabyssZG/Deformed-Image-Restorer&type=Date)](https://star-history.com/#AabyssZG/Deformed-Image-Restorer&Date)

@@ -66,7 +66,7 @@ def writenew(filename,i,j):
     f2 = open("hexnew.txt", "wb+")
     f2.write(binascii.hexlify(content))
     f2.close()
-    print(f"[+] 创建信16进制TXT成功:导出为hexnew.txt")
+    print(f"[+] 创建新16进制TXT成功:导出为hexnew.txt")
     fr = open("hexnew.txt",'rb').read()
     data1 = str(fr[32:40])[2:10]
     data2 = str(fr[40:48])[2:10]
